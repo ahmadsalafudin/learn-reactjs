@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+// import HelloComponent from './component/HelloComponent'
+import StateFullComponent from './container/StateFullComponent'
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <StateFullComponent />
   </React.StrictMode>,
   document.getElementById('root')
 );
